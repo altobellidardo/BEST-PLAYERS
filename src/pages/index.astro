@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../data.json'
+import Banner from '../components/Banner.astro';
+---
+
+<Layout title="BEST NBA PLAYERS 🏀">
+	<h1 class='text-4xl font-bold text-center py-3'>BEST NBA PLAYERS 🏀</h1>
+	<main class='w-fit mx-auto my-4'>
+		<ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+			{data.map((player, index) => (
+				<Banner player={player} index={index} />
+			))}
+		</ul>
+	</main>
+</Layout>

@@ -1,0 +1,72 @@
+[
+    {
+      "full name": "Michael Jordan",
+      "last team": "Washington Wizards",
+      "retirement year": 2003,
+      "points": 30.1,
+      "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/893.png"
+    },
+    {
+        "full name": "LeBron James",
+        "last team": "Los Angeles Lakers",
+        "retirement year": null,
+        "points": 27,
+        "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png"
+    },
+    {
+      "full name": "Kareem Abdul-Jabbar",
+      "last team": "Los Angeles Lakers",
+      "retirement year": 1989,
+      "points": 24.6,
+      "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/76003.png"
+    },
+    {
+      "full name": "Kobe Bryant",
+      "last team": "Los Angeles Lakers",
+      "retirement year": 2016,
+      "points": 25,
+      "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/977.png"
+    },
+    {
+      "full name": "Shaquille O'Neal",
+      "last team": "Boston Celtics",
+      "retirement year": 2011,
+      "points": 23.7,
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/614.png&w=350&h=254"
+    },
+    {
+      "full name": "Larry Bird",
+      "last team": "Boston Celtics",
+      "retirement year": 1992,
+      "points": 24.3,
+      "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1449.png"
+    },
+    {
+      "full name": "Magic Johnson",
+      "last team": "Los Angeles Lakers",
+      "retirement year": 1996,
+      "points": 19.5,
+      "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/77142.png"
+    },
+    {
+      "full name": "Tim Duncan",
+      "last team": "San Antonio Spurs",
+      "retirement year": 2016,
+      "points": 19,
+      "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1495.png"
+    },
+    {
+      "full name": "Hakeem Olajuwon",
+      "last team": "Toronto Raptors",
+      "retirement year": 2002,
+      "points": 21.8,
+      "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/165.png"
+    },
+    {
+      "full name": "Wilt Chamberlain",
+      "last team": "Los Angeles Lakers",
+      "retirement year": 1973,
+      "points": 30.1,
+      "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/76375.png"
+    }
+  ]

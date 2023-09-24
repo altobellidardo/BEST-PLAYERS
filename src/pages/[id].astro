@@ -1,0 +1,26 @@
+---
+import Layout from "../layouts/Layout.astro";
+import data from "../data.json";
+
+const { id } = Astro.params
+
+const newId = Number(id) - 1
+const player = data[newId]
+
+const isIdValid = newId + 1 < 1 || newId + 1 > data.length || isNaN(newId)
+
+if (isIdValid) {
+    return Astro.redirect("/")
+}
+---
+
+<Layout title={player['full name']}>
+    <a class='text-blue-500 hover:underline block m-5' href="/">Go back</a>
+    <article class='flex flex-col justify-center items-center'>
+        <h2 transition:name={`hpl-${id}`} class='text-4xl font-bold'>{player['full name']}</h2>
+        <p><strong>Last team: </strong>{player['last team']}</p>
+        <p><strong>Retirement year: </strong>{player['retirement year']}</p>
+        <p><strong>Points: </strong>{player['points']}</p>
+        <img class='w-[400px]' transition:name={`pl-${id}`} src={player['image']} />
+    </article>
+</Layout>
